@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+    <!-- EV Charger Finder Logo -->
+    <ImageView
+        android:id="@+id/EVLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/ev_charger_finder_logo"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/img_logo_main_ev_charge_locator" />
+
+    <!-- Name of the EV charger -->
+    <TextView
+        android:id="@+id/chargerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/ec_charger_title"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+
+
+    <!-- Image of the EV charger location -->
+    <ImageView
+        android:id="@+id/chargerImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/ev_charger_image"
+        android:scaleType="centerCrop" />
+
+    <!-- Layout for charger information -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start">
+
+            <!-- Description of the EV charger -->
+            <TextView
+                android:id="@+id/chargerDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="@string/description"
+                android:textColor="@android:color/black" />
+
+            <!-- Location coordinates of the EV charger -->
+            <TextView
+                android:id="@+id/chargerLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="@string/location_coordinates"
+                android:textColor="@android:color/black" />
+
+            <!-- Address of the EV charger -->
+            <TextView
+                android:id="@+id/chargerAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="@string/address"
+                android:textColor="@android:color/black" />
+
+            <!-- Points and Cost of the EV Charger -->
+            <TextView
+                android:id="@+id/chargerPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Points: 0 and Cost: 0.0/kWh"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

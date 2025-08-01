@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EV Charger Finder</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="logo">Logo</string>
+    <string name="ev_charger_finder_logo">EV Charger Finder Logo</string>
+    <string name="ec_charger_title">EV Charger Title</string>
+    <string name="ev_charger_image">EV Charger Image</string>
+    <string name="description">Description</string>
+    <string name="location_coordinates">Location Coordinates</string>
+    <string name="address">Address</string>
+    <string name="start">start</string>
+</resources>
