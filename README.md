@@ -6,39 +6,12 @@ It integrates **Google Maps API** and device GPS to display charger locations, p
 
 ---
 
-## ✨ Features  
+## Features  
 - **Current Location Tracking** – Detects and centers the map on the user’s location.  
 - **Nearby Charger Finder** – Displays EV charging stations on Google Maps.  
 - **Search Functionality** – Allows users to search for specific chargers or areas.  
 - **Charger Details** – Opens a detail screen with full station information.  
 - **Testing Included** – Contains unit tests and instrumentation tests.  
-
----
-
-## Project Structure  
-```
-EV-Charger-Finder/
-│── app/
-│   ├── build.gradle.kts         # App-level Gradle build config
-│   ├── proguard-rules.pro       # ProGuard settings
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── AndroidManifest.xml
-│   │   │   ├── java/com/example/assignmentthree/
-│   │   │   │   ├── MainActivity.java
-│   │   │   │   ├── MapsActivity.java
-│   │   │   │   ├── CurrentLocation.java
-│   │   │   │   ├── Searching.java
-│   │   │   │   ├── DetailActivity.java
-│   │   │   │   ├── EVCharger.java
-│   │   │   │   └── MyMap.java
-│   │   │   ├── res/ (layouts, drawables, values, xml)
-│   │   ├── androidTest/ (instrumentation UI tests)
-│   │   └── test/ (unit tests)
-│── gradle/ (Gradle wrapper)
-│── build.gradle.kts
-│── settings.gradle.kts
-```
 
 ---
 
@@ -84,3 +57,5 @@ It is published here solely for educational and portfolio purposes, to showcase 
 
 All code presented is my own work. Course-specific materials such as assignment descriptions or test data are not included to respect university policies.  
 
+## Academic Integrity
+Portfolio-only; not intended for reuse in coursework. Removal on request.
